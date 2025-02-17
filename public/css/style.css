@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #f39c12;
+}
+
+.nav-link:hover {
+    color: #f39c12 !important;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.input-group input {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.input-group input::placeholder {
+    color: #bbb;
+}
+
+.input-group button {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+}
+
+.input-group button:hover {
+    background-color: #e67e22;
+}
