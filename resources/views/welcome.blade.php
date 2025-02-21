@@ -31,18 +31,18 @@
                         <li class="nav-item"><a class="nav-link" href="#">Phim Chiếu Rạp</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Phim Bộ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Phim Lẻ</a></li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Nhập tên phim..." aria-label="Search">
-                        <button class="btn btn-outline-warning" type="submit">🔍</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+                        </ul>
+                        </nav>
         <div class="input-group w-25">
             <input type="text" class="form-control" placeholder="Nhập tên phim bạn muốn tìm kiếm...">
             <button class="btn btn-outline-light">🔍</button>
         </div>
+        <div class="auth-buttons">
+            <a href="login.php" class="login-btn" >Đăng nhập</a>
+            <a href="register.php" class="register-btn" >Đăng ký</a>
+        </div>
+    </header>
+            </div>
     </header>
     
     <section class="container my-4">
@@ -82,38 +82,67 @@
             </div>
         </div>
     </section>
-    <section class="container my-4">
-        <h2 class="text-center">PHIM MỚI CẬP NHẬT</h2>
+    <div class="container py-4">
+        <h2 class="text-warning text-center">PHIM MỚI CẬP NHẬT</h2>
         <div class="row">
             <div class="col-md-3">
-                <div class="card">
-                    <img src="new-movie-1.jpg" class="card-img-top" alt="Phim Mới 1">
+                <div class="card bg-dark text-white border-0">
+                    <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/cay-o-liu-mau-trang-15032-thumb.webp" class="card-img-top" alt="Movie 1">
+                    <span class="badge bg-warning text-dark position-absolute m-2">Hoàn Tất (38/38) Vietsub + Thuyết Minh</span>
                     <div class="card-body text-center">
-                        <p class="card-text">Phim Mới 1</p>
+                        <p class="card-text">Cây Ô Liu Màu Trắng</p>
+                        <small class="text-muted">The White Olive Tree</small>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card">
-                    <img src="new-movie-2.jpg" class="card-img-top" alt="Phim Mới 2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/phai-long-nang-phu-thuy-15330-thumb.webp" class="card-img-top" alt="Movie 2">
+                    <span class="badge bg-warning text-dark position-absolute m-2">Tập 2 Vietsub</span>
                     <div class="card-body text-center">
-                        <p class="card-text">Phim Mới 2</p>
+                        <p class="card-text">Phải Lòng Nàng Phù Thủy</p>
+                        <small class="text-muted">The Witch</small>
                     </div>
                 </div>
             </div>
+            <!-- Thêm các phim khác tương tự -->
         </div>
-    </section>
 
-    <section class="container my-4">
-        <h2 class="text-center">TRENDING</h2>
-        <ol class="list-group list-group-numbered">
-            <li class="list-group-item">Khi Điện Thoại Đổ Chuông</li>
-            <li class="list-group-item">Trò Chơi Con Mực (Phần 2)</li>
-            <li class="list-group-item">Cửu Trùng Tử</li>
-            <li class="list-group-item">Yêu Nhầm Song Sinh</li>
-            <li class="list-group-item">Đồng Chí</li>
+        <h2 class="text-warning text-center mt-4">TRENDING</h2>
+        <ol class="list-group list-group-numbered bg-dark">
+            <li class="list-group-item bg-dark text-white border-0 d-flex justify-content-between">
+                <span>Khi Điện Thoại Đổ Chuông</span> <span class="text-warning">338,782 lượt xem</span>
+            </li>
+            <li class="list-group-item bg-dark text-white border-0 d-flex justify-content-between">
+                <span>Trò Chơi Con Mực (Phần 2)</span> <span class="text-warning">144,040 lượt xem</span>
+            </li>
+            <!-- Thêm các phim trending khác tương tự -->
         </ol>
-    </section>
+    </div>
+    <div class="container mt-4">
+        <h2 class="mb-4" style="color:#fff">PHIM CHIẾU RẠP MỚI</h2>
+        <div class="row">
+            <div class="col-md-3 col-6 movie-card">
+                <span class="label" >Trailer Vietsub</span>
+                <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/Phim-Rider-Giao-hang-cho-ma.jpg" alt="Movie Poster">
+                <p class="movie-title"style="color:#fff">Rider: Giao Hàng Cho Ma</p>
+            </div>
+            <div class="col-md-3 col-6 movie-card">
+                <span class="label">Trailer Vietsub</span>
+                <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/ke-dong-hanh.jpg" alt="Movie Poster">
+                <p class="movie-title" style="color:#fff">Kẻ Đồng Hành</p>
+            </div>
+            <div class="col-md-3 col-6 movie-card">
+                <span class="label">Trailer Vietsub</span>
+                <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/phim-Chi-Dau.jpg" alt="Movie Poster">
+                <p class="movie-title" style="color:#fff">Chị Dâu</p>
+            </div>
+            <div class="col-md-3 col-6 movie-card">
+                <span class="label">Trailer</span>
+                <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/phim-404-chay-ngay-di.jpg" alt="Movie Poster">
+                <p class="movie-title" style="color:#fff">404 - Chạy Ngay Đi</p>
+            </div>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

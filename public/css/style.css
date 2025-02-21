@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
-    color: white;
+    color: rgb(11, 11, 11);
 }
 
 .logo {
@@ -57,4 +57,41 @@ body {
 
 .input-group button:hover {
     background-color: #e67e22;
+}
+.movie-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+.movie-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e67e22;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.movie-title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.login-btn {
+    background-color: #f40c18;
+    width:20px ;
+}
+.register-btn {
+    background-color: #28a745;
+    width: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 20px 30px;
 }
