@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    width: 200px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 120vh;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 15px 0;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+form {
+    margin-bottom: 20px;
+    padding: 22px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#delete-movie button {
+    background: red;
+}
+
+
