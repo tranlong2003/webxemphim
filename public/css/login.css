@@ -33,12 +33,12 @@ input {
     color: white;
 }
 input:focus {
-    outline: 2px solid red;
+    outline: 2px solid #ffcc00;
 }
 .login-btn {
     width: 100%;
     padding: 10px;
-    background: red;
+    background: #ffcc00;
     color: #000;
     border: none;
     border-radius: 5px;
@@ -47,13 +47,13 @@ input:focus {
     transition: 0.3s;
 }
 .login-btn:hover {
-    background: #9f1010;
+    background: #e6b800;
 }
 .links {
     margin-top: 10px;
 }
 .links a {
-    color: red;
+    color: #ffcc00;
     text-decoration: none;
     margin: 0 10px;
     font-size: 14px;
