@@ -38,16 +38,16 @@
             <button class="btn btn-outline-light">🔍</button>
         </div>
         <div class="auth-buttons">
-            <a href="login.php" class="login-btn" >Đăng nhập</a>
-            <a href="register.php" class="register-btn" >Đăng ký</a>
+            <a href="{{route('login')}}" class="btn btn-primary" >Đăng nhập</a>
+            <a href="{{route('register')}}" class="btn btn-success" >Đăng ký</a>
         </div>
     </header>
-            </div>
-    </header>
+          
     
     <section class="container my-4">
         <h2 class="text-center">PHIM ĐỀ CỬ</h2>
         <div class="row">
+
             <div class="col-md-3">
                 <div class="card">
                     <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/ban-ban-be-be-15183-thumb.webp" class="card-img-top" alt="Tiệm Ăn Của Quỷ">
@@ -105,17 +105,31 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/03/chiem-huu-khuong-tay-15613-thumb.webp" class="card-img-top" alt="Movie 3">
+                    <span class="badge bg-warning text-dark position-absolute m-2">Tập 1 Vietsub</span>
+                    <div class="card-body text-center">
+                        <p class="card-text">Chiếm Hữu khương tây</p>
+                        <small class="text-muted">The Witch</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="https://motchill.foo/wp-content/uploads/2025/02/180-ngay-tai-khoi-dong-ke-hoach-15349-thumb.webp" class="card-img-top" alt="Movie 2">
+                    <span class="badge bg-warning text-dark position-absolute m-2">Tập 1 Vietsub</span>
+                    <div class="card-body text-center">
+                        <p class="card-text">180 ngày tái khởi động kế hoạch</p>
+                        <small class="text-muted">The Witch</small>
+                    </div>
+                </div>
+            </div>
+            
             <!-- Thêm các phim khác tương tự -->
         </div>
-
-        <h2 class="text-warning text-center mt-4">TRENDING</h2>
-        <ol class="list-group list-group-numbered bg-dark">
-            <li class="list-group-item bg-dark text-white border-0 d-flex justify-content-between">
-                <span>Khi Điện Thoại Đổ Chuông</span> <span class="text-warning">338,782 lượt xem</span>
-            </li>
-            <li class="list-group-item bg-dark text-white border-0 d-flex justify-content-between">
-                <span>Trò Chơi Con Mực (Phần 2)</span> <span class="text-warning">144,040 lượt xem</span>
-            </li>
+            </div>
+        
             <!-- Thêm các phim trending khác tương tự -->
         </ol>
     </div>
@@ -134,7 +148,7 @@
             </div>
             <div class="col-md-3 col-6 movie-card">
                 <span class="label">Trailer Vietsub</span>
-                <img src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/phim-Chi-Dau.jpg" alt="Movie Poster">
+                <img style="height: 392px !important;" src="https://www.pineridgefilm.com/wp-content/uploads/2025/02/phim-Chi-Dau.jpg" alt="Movie Poster">
                 <p class="movie-title" style="color:#fff">Chị Dâu</p>
             </div>
             <div class="col-md-3 col-6 movie-card">
@@ -143,6 +157,34 @@
                 <p class="movie-title" style="color:#fff">404 - Chạy Ngay Đi</p>
             </div>
         </div>
+
+        <footer style="background-color: #333; color: #ddd; padding: 20px; font-family: Arial, sans-serif;">
+    <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: auto;">
+        <div style="max-width: 60%;">
+            <p>
+                <b>Xem phim online</b> miễn phí chất lượng cao với phụ đề tiếng Việt - thuyết minh - lồng tiếng. 
+             có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất với giao diện 
+                trực quan, thuận tiện, tốc độ tải nhanh, thường xuyên cập nhật các bộ phim mới hứa hẹn sẽ đem lại những trải nghiệm tốt cho người dùng.
+            </p>
+            <p>BÀi Tập Lớn: <a href="#" style="color: #00aaff;">@nhom1vippro</a></p>
+        </div>
+        <div>
+            <h4>Quy định</h4>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="#" style="color: #ddd; text-decoration: none;">Điều khoản chung</a></li>
+                <li><a href="#" style="color: #ddd; text-decoration: none;">Chính sách riêng tư</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Giới thiệu</h4>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="https://zalo.me/0337457055" style="color: #ddd; text-decoration: none;">LIÊN HỆ</a></li>
+                <li><a href="https://www.facebook.com/hackers1tg.1" style="color: #ddd; text-decoration: none;">Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
