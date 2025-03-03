@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2>Quản lý phim</h2>
+        <h2><a href="/resources/views/html/Manage film.html">Quản lý phim</a></h2>
         <ul>
             <li><a href="#add-film">Thêm phim</a></li>
             <li><a href="/resources/views/html/Edit film.html">Sửa phim</a></li>
@@ -21,6 +21,12 @@
             <form>
                 <label for="new-movie-title">Tên phim:</label>
                 <input type="text" id="new-movie-title" name="new-movie-title" required>
+                <label for="new-movie-title">Số tập:</label>
+                <input type="number" id="episode" name="episode" required>
+                <label for="language">Ngôn ngữ:</label>
+                <input type="text" id="language" name="language" required>
+                <label for="genre">Thể loại:</label>
+                <input type="text" id="genre" name="genre" required>
                 <label for="new-movie-description">Mô tả:</label>
                 <textarea id="new-movie-description" name="new-movie-description" required></textarea>
                 <button type="submit">Thêm</button>
@@ -28,4 +34,4 @@
         </section>
     </div>
 </body>
-</html> 
+</html>
